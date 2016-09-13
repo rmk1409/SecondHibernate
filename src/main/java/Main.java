@@ -18,7 +18,7 @@ public class Main {
         Transaction transaction = session.beginTransaction();
 
         Employee e1 = new Employee();
-        e1.setId(1);
+
         e1.setFirstName("rmk");
         e1.setLastName("pogorelov");
 

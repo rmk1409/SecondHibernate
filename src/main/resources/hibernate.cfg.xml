@@ -16,7 +16,7 @@
 
         <property name="show_sql">true</property>
 
-        <mapping resource="domain/employee.hbm.xml"/>
+        <mapping class="domain.Employee"/>
     </session-factory>
 
 </hibernate-configuration>

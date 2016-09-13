@@ -1,11 +1,23 @@
 package domain;
 
+import javax.persistence.*;
+
 /**
  * Created by r.pogorelov on 13.09.2016.
  */
+
+@Entity
+@Table(name = "emp1001")
 public class Employee {
+    @Id
+    @GeneratedValue
     private int id;
-    private String firstName, lastName;
+
+    @Column
+    private String firstName;
+
+    @Column
+    private String lastName;
 
     public int getId() {
         return id;
